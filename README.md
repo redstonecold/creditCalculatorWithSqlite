@@ -1,5 +1,28 @@
 # creditCalculatorWithSqlite
 
+## redstonecold's 실습    
+__실습 내용 : 기존 코드에 data 요소 하나 추가하여 구현 (학번 요소 추가)__    
+
+Create    
+<img width="291" alt="스크린샷 2021-06-30 오후 4 17 22" src="https://user-images.githubusercontent.com/70834046/123918425-d544c680-d9be-11eb-9619-d34862bd763f.png">    
+
+Read   
+<img width="515" alt="스크린샷 2021-06-30 오후 4 17 27" src="https://user-images.githubusercontent.com/70834046/123918532-ef7ea480-d9be-11eb-84a6-abe4dedde995.png">    
+
+Update    
+<img width="498" alt="스크린샷 2021-06-30 오후 4 17 49" src="https://user-images.githubusercontent.com/70834046/123918577-fa393980-d9be-11eb-9f03-5ffaa517341b.png">      
+
+Delete    
+<img width="523" alt="스크린샷 2021-06-30 오후 4 18 09" src="https://user-images.githubusercontent.com/70834046/123918655-0cb37300-d9bf-11eb-9b15-8106eb0752ae.png">   
+
+Save Data    
+<img width="247" alt="스크린샷 2021-06-30 오후 4 18 18" src="https://user-images.githubusercontent.com/70834046/123918757-26ed5100-d9bf-11eb-806d-6ecd800bbb04.png">     
+
+
+공부 내용 :    
+https://www.notion.so/3-CRUD-Java-project-Sqlite-3b2a9852e8274fb98c35c7b50c4e22cd     
+
+
 ## 개발 step
 
 1. 새 프로젝트 생성 (File > New > Project.. > Gradle > Java) 후 creditCalculatorWithFile 복사
