@@ -1,15 +1,17 @@
 public class Person {
     private int num;
     private String name;
+    private String studentNumber;
     private int korScore;
     private int engScore;
     private int mathScore;
     private String grade;
     private String regDate;
 
-    public Person(int num, String name, int korScore, int engScore, int mathScore, String grade, String regDate) {
+    public Person(int num, String studentNumber, String name, int korScore, int engScore, int mathScore, String grade, String regDate) {
         this.num = num;
         this.name = name;
+        this.studentNumber = studentNumber;
         this.korScore = korScore;
         this.engScore = engScore;
         this.mathScore = mathScore;
@@ -48,7 +50,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return this.num+1 + ". " + this.name + " " +  this.korScore + "  " + this.engScore + "  " + this.mathScore + "   " + sum() + "  " + sum()/3 + "   "  + this.grade + "     "  +this.regDate ;
+        return this.num+1 + ". " + this.name + " " + this.studentNumber +  this.korScore + "  " + this.engScore + "  " + this.mathScore + "   " + sum() + "  " + sum()/3 + "   "  + this.grade + "     "  +this.regDate ;
     }
 
     public int getNum() {
@@ -65,6 +67,14 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getStudentNumber() {
+        return studentNumber;
+    }
+
+    public void setStudentNumber(String studentNumber) {
+        this.studentNumber = studentNumber;
     }
 
     public int getKorScore() {

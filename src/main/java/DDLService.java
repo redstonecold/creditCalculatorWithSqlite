@@ -2,11 +2,12 @@ import java.sql.*;
 
 public class DDLService {
 
-    final String TABLE_NAME = "PERSON";
+    final String TABLE_NAME = "PEOPLE";
 
-    final String CREATE_SQL = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME +" (  "
+    final String CREATE_SQL = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " (  "
             + "  ID  INTEGER  PRIMARY KEY  AUTOINCREMENT, "
             + "  NAME     TEXT     NOT NULL,  "
+            + "  STUDENTNUMBER     TEXT     NOT NULL,  "
             + "  KOR_SCORE     INTEGER     NOT NULL, "
             + "  ENG_SCORE     INTEGER     NOT NULL, "
             + "  MATH_SCORE     INTEGER     NOT NULL, "

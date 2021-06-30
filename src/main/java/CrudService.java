@@ -20,6 +20,7 @@ public class CrudService {
 
         int num;
         String name;
+        String studentNumber;
         int korScore;
         int engScore;
         int mathScore;
@@ -33,6 +34,9 @@ public class CrudService {
             br = new BufferedReader(new InputStreamReader(System.in));
             name = br.readLine();
             dataMap.put("NAME"   , name);
+            System.out.println("학번 입력");
+            studentNumber = br.readLine();
+            dataMap.put("STUDENTNUMBER", studentNumber);
             System.out.println("국어 성적 입력");
             korScore = Integer.parseInt(br.readLine());
             dataMap.put("KOR_SCORE"   , korScore);
@@ -61,6 +65,7 @@ public class CrudService {
 
         int num;
         String name;
+        String studentNumber;
         int korScore;
         int engScore;
         int mathScore;
@@ -72,13 +77,17 @@ public class CrudService {
         try {
             System.out.println("수정할 번호 입력");
             br = new BufferedReader(new InputStreamReader(System.in));
-
             num = Integer.parseInt(br.readLine());
             updateMap.put("updateID" , num);
 
             System.out.println("이름 입력");
             name = br.readLine();
             updateMap.put("NAME"   , name);
+
+            System.out.println("학번 입력");
+            studentNumber = br.readLine();
+            updateMap.put("STUDENTNUMBER", studentNumber);
+
             System.out.println("국어 성적 입력");
             korScore = Integer.parseInt(br.readLine());
             updateMap.put("KOR_SCORE"   , korScore);
